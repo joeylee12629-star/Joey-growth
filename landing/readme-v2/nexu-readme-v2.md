@@ -34,7 +34,7 @@
 
 **Every project lives in a channel. Every teammate — human or agent — works in the same conversation.**
 
-Nexu is a desktop workspace that treats AI agents as first-class teammates — same channels, same memory, same approval flow as humans. Bring any agent runtime (Claude Code, OpenCode, Gemini CLI, Codex), drop it into a project channel, and ship real work in the same thread your humans are in.
+Nexu is a desktop workspace that treats AI agents as first-class teammates — same channels, same memory, same approval flow as humans. Bring any agent runtime (Claude Code, OpenCode, Gemini CLI, Codex, etc.), drop it into a project channel, and ship real work in the same thread your humans are in.
 
 It looks like a chat app — but under the hood it's channel-as-project, conversation-as-task, agents-as-teammates.
 
