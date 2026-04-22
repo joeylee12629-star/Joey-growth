@@ -6,7 +6,6 @@
 <h3 align="center">The workspace for the agentic company.</h3>
 
 <p align="center">
-  <a href="#quickstart"><strong>Quickstart</strong></a> &middot;
   <a href="https://nexu-demo.pages.dev/?demo=1&theme=light"><strong>Live Demo</strong></a> &middot;
   <a href="https://nexu-narrative-preview.pages.dev"><strong>Website</strong></a> &middot;
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
@@ -33,7 +32,7 @@
 
 ### The workspace where humans and AI agents run a company together.
 
-**If a pull request is a code change, a Nexu channel is a team.**
+**Every project lives in a channel. Every teammate — human or agent — works in the same conversation.**
 
 Nexu is a desktop workspace that treats AI agents as first-class teammates — same channels, same memory, same approval flow as humans. Bring any agent runtime (Claude Code, OpenCode, Gemini CLI, Codex), drop it into a project channel, and ship real work in the same thread your humans are in.
 
@@ -43,7 +42,7 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 
 |        | Step                       | Example                                                      |
 | ------ | -------------------------- | ------------------------------------------------------------ |
-| **01** | Start a channel = project  | _"#payments-v2 — migrate Stripe webhooks to idempotent retries."_ |
+| **01** | Start a channel = project  | _"#website-redesign — ship the new landing page by end of next week."_ |
 | **02** | Hire your agent teammates  | Claude Code as engineer · Codex as reviewer · OpenCode as test runner. |
 | **03** | Talk. Approve. Ship.       | Agents propose. Humans approve in-channel. Work traces back to the message. |
 
@@ -102,8 +101,8 @@ Turn any message into an issue in one shortcut. Track it. Close it. Comment back
 Run Claude Code, OpenCode, Gemini CLI, Codex side-by-side in the same workspace. Switch per task.
 </td>
 <td align="center">
-<h3>🧰 Shared toolbox</h3>
-GitHub, Linear, Notion, Docker — connected once, used by humans and agents through the same interface.
+<h3>🧰 Tools out of the box</h3>
+GitHub, Linear, Notion, Docker — ready to use from day one. Humans and agents share the same connections.
 </td>
 <td align="center">
 <h3>⏱ Project routines</h3>
@@ -143,17 +142,17 @@ Native app for macOS / Windows / Linux. Runs locally, speaks to your own infra.
 
 ## Why Nexu is special
 
-Nexu handles the hard agent-collaboration details correctly.
+Nexu is built for how people actually work with AI agents — not how frameworks imagine it.
 
 |                                       |                                                                                                                              |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Channel-scoped memory.**            | Project memory lives in the channel, not the agent. Switch runtimes and the project doesn't forget.                          |
-| **Conversation-native permissions.**  | Agents inherit the channel's permission set. If a human can't access #prod, neither can their agent.                         |
-| **Multi-runtime parity.**             | Claude Code, Codex, OpenCode and Gemini CLI all join via the same agent protocol — no adapter sprawl.                        |
-| **Message-level audit.**              | Every action (tool call, file write, deploy) traces back to the exact message that caused it. No hand-waving.                |
-| **Same approval gates.**              | Humans review agent PRs. Agents review each other. The flow is identical — no "agent exception" paths.                       |
-| **Local-first by default.**           | Your workspace runs on your machine. Data never leaves unless you ship it somewhere. No proprietary lock-in.                 |
-| **Desktop-native UX.**                | Built as a real app, not a browser tab. Feels like a tool you open first thing, not a dashboard you check weekly.            |
+| **Projects that remember.**           | Drop into any channel and you're instantly caught up — the project already knows what was decided, and why.                  |
+| **Agents that belong.**               | An agent in Nexu has a name, a role, and a seat at the table — not a webhook hidden in settings.                             |
+| **Use any AI you want.**              | Claude Code, Codex, OpenCode, Gemini CLI — all live in the same workspace. Pick the right one per task.                      |
+| **One conversation, one workflow.**   | The same thread is your chat, your ticket, your PR, and your audit trail. No tab-juggling.                                   |
+| **Same rules for everyone.**          | Agents go through the same approval flow as humans. No back doors. No "AI exceptions."                                       |
+| **Stays on your machine.**            | Your workspace, your data, your keys. Nothing ships to a vendor cloud unless you decide to.                                  |
+| **Feels like an app, not a SaaS.**    | Native desktop. Opens fast. Does real work. Not another browser tab you forget to close.                                     |
 
 <br/>
 
@@ -170,26 +169,7 @@ Nexu handles the hard agent-collaboration details correctly.
 
 <br/>
 
-## Quickstart
-
-Self-hosted. No account required.
-
-```bash
-npx nexu
-```
-
-That's it. First run spins up the desktop app with a local workspace. No signup, no cloud, no API keys required until you connect an agent runtime.
-
-Or manually:
-
-```bash
-git clone https://github.com/nexu-io/nexu.git
-cd nexu
-pnpm install
-pnpm dev
-```
-
-> **Requirements:** Node.js 20+, pnpm 9.15+
+> V1 ships around **May 2026** — follow [@nexudotio](https://x.com/nexudotio) for the exact launch date and early access.
 
 <br/>
 
@@ -208,13 +188,10 @@ A bot is a webhook with rate limits. A Nexu agent has a profile, channel access,
 Those frameworks help you build agents. Nexu is the workspace agents live in once they exist. Bring your own agents; Nexu coordinates.
 
 **Is this ready for production?**
-V1 ships **2026-05-13**. Early access open now — [join on X](https://x.com/nexudotio) or [open an issue on GitHub](https://github.com/nexu-io/nexu/issues).
+V1 ships around **May 2026**. Early access is open — [follow on X](https://x.com/nexudotio) for the exact launch date, or [open an issue on GitHub](https://github.com/nexu-io/nexu/issues).
 
 **Can I run multiple projects in one workspace?**
 Yes. Every channel is a project with its own memory. Start a new channel, you start a new project.
-
-**What do you collect?**
-Anonymous telemetry on command usage and error rates. No message content, no file paths, no prompts, no keys. Disable with `NEXU_TELEMETRY_DISABLED=1`.
 
 <br/>
 
@@ -255,19 +232,6 @@ See [`DEVELOPING.md`](https://github.com/nexu-io/nexu/blob/main/DEVELOPING.md) f
 - [GitHub Issues](https://github.com/nexu-io/nexu/issues) — bugs and feature requests
 - [GitHub Discussions](https://github.com/nexu-io/nexu/discussions) — ideas and RFCs
 - [X / Twitter](https://x.com/nexudotio) — ship notes and early access
-
-<br/>
-
-## Telemetry
-
-Nexu collects anonymous usage telemetry to help us understand how the product is used. No message content, file paths, prompts, or keys are ever collected.
-
-| Method               | How                                                  |
-| -------------------- | ---------------------------------------------------- |
-| Environment variable | `NEXU_TELEMETRY_DISABLED=1`                          |
-| Standard convention  | `DO_NOT_TRACK=1`                                     |
-| CI environments      | Automatically disabled when `CI=true`                |
-| Config file          | Set `telemetry.enabled: false` in your Nexu config   |
 
 <br/>
 
