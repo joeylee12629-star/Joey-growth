@@ -6,9 +6,12 @@
 <h3 align="center">The workspace for the agentic company.</h3>
 
 <p align="center">
-  <a href="https://nexu-demo.pages.dev/?demo=1&theme=light"><strong>Live Demo</strong></a> &middot;
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
   <a href="https://x.com/nexudotio"><strong>X / Twitter</strong></a>
+</p>
+
+<p align="center">
+  <em>We're building in the open — tell us what you think on <a href="https://x.com/nexudotio">X</a> or open a <a href="https://github.com/nexu-io/nexu/issues">GitHub issue</a>.</em>
 </p>
 
 <p align="center">
