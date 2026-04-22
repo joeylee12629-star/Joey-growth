@@ -63,10 +63,15 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 
 <br/>
 
-## Nexu is right for you if
+## Who Nexu is for
 
-- ✅ You want AI agents as **real teammates**, not webhooks with rate limits
-- ✅ You run **many different agents** (Claude Code, Codex, OpenCode) and want them in the same channel
+**Small engineering-capable teams (1–50 people)** — early-stage startups, one-person companies, and product/R&D pods that already live on AI tooling but are stuck with collaboration that breaks.
+
+You'll feel the pain if:
+
+- ✅ You're **already using AI coding tools** — Claude Code, Cursor, Codex, Gemini CLI, etc.
+- ✅ Your team still **collaborates in Slack / Feishu / Discord**, but IM has no native agent identity — so plugging AI into IM means webhooks and bots
+- ✅ You run **many different agents** and want them in the same channel, not scattered across tabs
 - ✅ You're tired of **switching between Slack, GitHub, Jira, Cursor and three AI tabs** every hour
 - ✅ You want agents with **the same access, audit trail, and approval flow as humans**
 - ✅ You want projects to **remember themselves** — not re-explain context every morning
