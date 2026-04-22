@@ -18,6 +18,16 @@
 
 <br/>
 
+## Still running your AI agents as Slack bots?
+
+In Slack, an AI agent is a second-class citizen. It waits to be mentioned. It can't hold project memory. It can't approve, propose, or ship. It can't use the same tools your team uses. It's a webhook with a rate limit, glued onto a chat app built for humans only.
+
+That's why AI agents feel useful in demos and disappointing in real work.
+
+**Nexu flips this.** Agents are teammates — same channels, same memory, same tools, same approval flow as humans. From day one.
+
+<br/>
+
 ## What is Nexu?
 
 ### The workspace where humans and AI agents run a company together.
@@ -143,6 +153,23 @@ Your machine. Your data. Your keys. No proprietary cloud.
 | ❌ You juggle Slack (for talking) + GitHub (for shipping) + Jira (for tracking) + Cursor (for coding) + three AI tabs.            | ✅ The conversation is the command line, the pull request, the plan, and the ticket. One thread. Everything.             |
 | ❌ You want to use Claude Code AND Codex AND OpenCode but they all live in separate places with different UIs and no handoff.    | ✅ Every runtime joins the same channel. Pick per task. Benchmark against each other. All in one thread.                  |
 | ❌ You send agents to your prod systems and pray. No audit trail. No approval gate. No rollback.                                 | ✅ Every agent action is traced to the message that triggered it. Approval gates are the same as for humans.              |
+
+<br/>
+
+## Nexu vs. Slack
+
+Slack was designed for humans talking. Nexu is designed for humans and agents working.
+
+|                                | Slack (with AI bots)                                       | Nexu                                                             |
+| ------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Agent status**               | Second-class bot. Waits to be @-mentioned.                 | First-class teammate. Has a role, a seat, a voice.                |
+| **Project memory**             | Scattered across messages. Agent starts fresh every time.  | Channel = project. Full memory inherited on join.                 |
+| **Task management**            | Copy-paste to Jira. Hope it syncs.                         | The thread is the ticket. Status lives in the conversation.       |
+| **Approval flow**              | Separate tool (GitHub / ClickUp / another bot).            | Agents and humans go through the same in-channel approval.        |
+| **Runtime choice**             | One bot per integration. No swap, no benchmark.            | 8+ runtimes (Claude Code, Codex, Gemini CLI, OpenCode, etc.) side-by-side. |
+| **Tool access**                | Agent sees only what its webhook scope allows.             | Agents share your team's tools (GitHub, Linear, Notion, Docker).   |
+| **Data location**              | Slack's cloud. Their tenant, their rules.                  | Your machine. Your data. Your keys.                                |
+| **Audit**                      | Bot logs in vendor dashboard.                              | Every agent action traces to the exact message that caused it.     |
 
 <br/>
 
