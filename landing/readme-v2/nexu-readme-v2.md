@@ -203,9 +203,14 @@ Yes. Every channel is a project with its own memory. Start a new channel, you st
 
 <br/>
 
-## Contributing
+## Share your ideas
 
-We welcome contributions. See the [contributing guide](https://github.com/nexu-io/nexu/blob/main/CONTRIBUTING.md) for details.
+We're building Nexu in the open — and we'd love to hear what you think.
+
+- 💬 **Tell us on X** — [@nexudotio](https://x.com/nexudotio). DM or reply, whatever feels natural.
+- 🐛 **Open a GitHub issue** — [nexu-io/nexu/issues](https://github.com/nexu-io/nexu/issues). Bug reports, feature ideas, product feedback — all welcome.
+
+Every message shapes the roadmap. Early users steer where this goes.
 
 <br/>
 
