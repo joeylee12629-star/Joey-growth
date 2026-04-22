@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexu README v2 — Preview</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css">
+<style>
+  :root{--bg:#fafbfc;--tx:#1f2328}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  .wrap{max-width:900px;margin:0 auto;padding:56px 32px 96px}
+  .bar{position:sticky;top:0;background:rgba(250,251,252,0.92);backdrop-filter:blur(8px);padding:14px 32px;border-bottom:1px solid #e6e8ea;z-index:10;display:flex;gap:14px;align-items:center;font-size:13px}
+  .bar a{color:#0969da;text-decoration:none;padding:4px 10px;border:1px solid #d1d9e0;border-radius:6px;background:#fff}
+  .bar a:hover{background:#f3f4f6}
+  .bar .meta{color:#656d76;margin-left:auto;font-size:12px}
+  .markdown-body{box-sizing:border-box;padding:0;background:transparent}
+  .markdown-body h1{font-size:2.4em;margin-top:0.2em}
+  .markdown-body h2{margin-top:1.8em}
+  .markdown-body h3{margin-top:1.6em}
+  .markdown-body hr{margin:2em 0;border:0;border-top:1px solid #e6e8ea}
+  .markdown-body blockquote{color:#656d76}
+  .diff{display:inline-block;padding:2px 8px;background:#ddf4ff;color:#0969da;border-radius:4px;font-size:12px;font-weight:600;margin-left:6px}
+  #status{color:#656d76;padding:80px 32px;text-align:center}
+</style>
+</head>
+<body>
+<div class="bar">
+  <strong>📝 Nexu README v2 — Copy Review</strong>
+  <a href="https://github.com/joeylee12629-star/Joey-growth/tree/main/landing/readme-v2" target="_blank">Repo ↗</a>
+  <a href="https://github.com/joeylee12629-star/Joey-growth/blob/main/landing/readme-v2/nexu-readme-v2.md" target="_blank">Source .md ↗</a>
+  <a href="https://nexu-narrative-preview.pages.dev" target="_blank">Live landing ↗</a>
+  <span class="meta">707 words · draft</span>
+</div>
+<div class="wrap">
+  <article id="md" class="markdown-body"><div id="status">Loading…</div></article>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script>
+(async () => {
+  try {
+    const r = await fetch("./nexu-readme-v2.md?cb=" + Date.now());
+    const md = await r.text();
+    marked.setOptions({ breaks:false, gfm:true });
+    document.getElementById("md").innerHTML = marked.parse(md);
+  } catch(e) {
+    document.getElementById("md").innerHTML = "<pre>Failed: " + e.message + "</pre>";
+  }
+})();
+</script>
+</body>
+</html>
