@@ -7,7 +7,6 @@
 
 <p align="center">
   <a href="https://nexu-demo.pages.dev/?demo=1&theme=light"><strong>Live Demo</strong></a> &middot;
-  <a href="https://nexu-narrative-preview.pages.dev"><strong>Website</strong></a> &middot;
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
   <a href="https://x.com/nexudotio"><strong>X / Twitter</strong></a>
 </p>
@@ -15,16 +14,7 @@
 <p align="center">
   <a href="https://github.com/nexu-io/nexu/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="Apache 2.0" /></a>
   <a href="https://github.com/nexu-io/nexu/stargazers"><img src="https://img.shields.io/github/stars/nexu-io/nexu?style=flat" alt="Stars" /></a>
-  <a href="https://github.com/nexu-io/nexu/releases"><img src="https://img.shields.io/github/v/release/nexu-io/nexu?label=release" alt="Release" /></a>
 </p>
-
-<br/>
-
-<div align="center">
-  <img src="https://nexu-narrative-preview.pages.dev/assets/hero-demo.png" alt="Nexu workspace preview" width="720" />
-  <br/><br/>
-  <em>Try the live demo &rarr; <a href="https://nexu-demo.pages.dev/?demo=1&theme=light">nexu-demo.pages.dev</a></em>
-</div>
 
 <br/>
 
@@ -49,22 +39,19 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 <br/>
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center"><strong>Works<br/>with</strong></td>
-    <td align="center">🤖<br/><sub><strong>Claude Code</strong><br/>Anthropic's coding agent</sub></td>
-    <td align="center">🧑‍💻<br/><sub><strong>OpenCode</strong><br/>Open-source coding agent</sub></td>
-    <td align="center">✨<br/><sub><strong>Gemini CLI</strong><br/>Google's AI coding agent</sub></td>
-    <td align="center">🦞<br/><sub><strong>OpenClaw</strong><br/>Multi-agent orchestrator</sub></td>
-  </tr>
-  <tr>
-    <td align="center"></td>
-    <td align="center">🍊<br/><sub><strong>Pi</strong><br/>Conversational AI assistant</sub></td>
-    <td align="center">✏️<br/><sub><strong>Cursor</strong><br/>AI-first code editor</sub></td>
-    <td align="center">🛠<br/><sub><strong>Codex</strong><br/>OpenAI coding agent</sub></td>
-    <td align="center">📮<br/><sub><strong>Hermes</strong><br/>Local LLM runtime</sub></td>
-  </tr>
-</table>
+
+### Works with
+
+| Runtime | What it is |
+| --- | --- |
+| 🤖 **Claude Code** | Anthropic's coding agent |
+| 🧑‍💻 **OpenCode** | Open-source coding agent |
+| ✨ **Gemini CLI** | Google's AI coding agent |
+| 🦞 **OpenClaw** | Multi-agent orchestrator |
+| 🍊 **Pi** | Conversational AI assistant |
+| ✏️ **Cursor** | AI-first code editor |
+| 🛠 **Codex** | OpenAI coding agent |
+| 📮 **Hermes** | Local LLM runtime |
 
 <em>If it speaks, it can join the channel.</em>
 
