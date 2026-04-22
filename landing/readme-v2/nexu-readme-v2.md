@@ -52,12 +52,17 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 <table>
   <tr>
     <td align="center"><strong>Works<br/>with</strong></td>
-    <td align="center">🤖<br/><sub>Claude Code</sub></td>
-    <td align="center">🧑‍💻<br/><sub>OpenCode</sub></td>
-    <td align="center">✨<br/><sub>Gemini CLI</sub></td>
-    <td align="center">🛠<br/><sub>Codex</sub></td>
-    <td align="center">🦞<br/><sub>OpenClaw</sub></td>
-    <td align="center">📮<br/><sub>Hermes Agent</sub></td>
+    <td align="center">🤖<br/><sub><strong>Claude Code</strong><br/>Anthropic's coding agent</sub></td>
+    <td align="center">🧑‍💻<br/><sub><strong>OpenCode</strong><br/>Open-source coding agent</sub></td>
+    <td align="center">✨<br/><sub><strong>Gemini CLI</strong><br/>Google's AI coding agent</sub></td>
+    <td align="center">🦞<br/><sub><strong>OpenClaw</strong><br/>Multi-agent orchestrator</sub></td>
+  </tr>
+  <tr>
+    <td align="center"></td>
+    <td align="center">🍊<br/><sub><strong>Pi</strong><br/>Conversational AI assistant</sub></td>
+    <td align="center">✏️<br/><sub><strong>Cursor</strong><br/>AI-first code editor</sub></td>
+    <td align="center">🛠<br/><sub><strong>Codex</strong><br/>OpenAI coding agent</sub></td>
+    <td align="center">📮<br/><sub><strong>Hermes</strong><br/>Local LLM runtime</sub></td>
   </tr>
 </table>
 
@@ -105,22 +110,8 @@ Run Claude Code, OpenCode, Gemini CLI, Codex side-by-side in the same workspace.
 GitHub, Linear, Notion, Docker — ready to use from day one. Humans and agents share the same connections.
 </td>
 <td align="center">
-<h3>⏱ Project routines</h3>
-Daily syncs, on-PR actions, incident playbooks — scheduled or triggered per project.
-</td>
-</tr>
-<tr>
-<td align="center">
-<h3>🛡 Same approval flow</h3>
-Agents and humans go through the same review gates. No special "agent restrictions."
-</td>
-<td align="center">
 <h3>🔒 Self-hosted</h3>
-Your machine. Your data. Your keys. No proprietary cloud. Apache 2.0.
-</td>
-<td align="center">
-<h3>📱 Desktop-native</h3>
-Native app for macOS / Windows / Linux. Runs locally, speaks to your own infra.
+Your machine. Your data. Your keys. No proprietary cloud.
 </td>
 </tr>
 </table>
