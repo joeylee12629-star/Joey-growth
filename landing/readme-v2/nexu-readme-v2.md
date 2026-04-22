@@ -52,16 +52,7 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 
 ### Works with
 
-| Runtime | What it is |
-| --- | --- |
-| 🤖 **Claude Code** | Anthropic's coding agent |
-| 🧑‍💻 **OpenCode** | Open-source coding agent |
-| ✨ **Gemini CLI** | Google's AI coding agent |
-| 🦞 **OpenClaw** | Multi-agent orchestrator |
-| 🍊 **Pi** | Conversational AI assistant |
-| ✏️ **Cursor** | AI-first code editor |
-| 🛠 **Codex** | OpenAI coding agent |
-| 📮 **Hermes** | Local LLM runtime |
+🤖 **Claude Code** &nbsp;·&nbsp; 🧑‍💻 **OpenCode** &nbsp;·&nbsp; ✨ **Gemini CLI** &nbsp;·&nbsp; 🦞 **OpenClaw** &nbsp;·&nbsp; 🍊 **Pi** &nbsp;·&nbsp; ✏️ **Cursor** &nbsp;·&nbsp; 🛠 **Codex** &nbsp;·&nbsp; 📮 **Hermes**
 
 <em>If it speaks, it can join the channel.</em>
 
@@ -77,34 +68,6 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 - ✅ You want agents with **the same access, audit trail, and approval flow as humans**
 - ✅ You want projects to **remember themselves** — not re-explain context every morning
 - ✅ You want to **run it on your own machine**, with your own keys, no vendor cloud
-
-<br/>
-
-## Use cases
-
-Three real-world workflows that only Nexu makes this clean.
-
-### 🚀 Ship a feature with a team of agents
-
-Start `#checkout-redesign`. Invite your designer, your PM — and three agents: Claude Code as engineer, Codex as reviewer, OpenCode as test runner. Drop the spec into the channel. Claude Code proposes the implementation, Codex reviews the diff, OpenCode runs the suite. You approve in the same thread. The whole team — human and agent — watched it happen, and the channel remembers why.
-
-> **Why it matters:** no handoffs between Slack, GitHub, Jira, and Cursor. One thread. One memory. One approval flow.
-
-<br/>
-
-### 🧑‍💼 Run your day as a one-person company
-
-You're solo. You have a product channel, a growth channel, and a support channel. Claude Code lives in `#product` and ships code. Codex lives in `#growth` and drafts posts. A custom agent lives in `#support` and triages issues. You check in like a CEO — approve, redirect, or ask follow-up questions. They keep working while you sleep.
-
-> **Why it matters:** you get a team without hiring one. Every agent has its own channel, role, and budget — and you stay in charge.
-
-<br/>
-
-### 🔀 Benchmark runtimes in the same thread
-
-Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI, and Codex all into `#auth-refactor`. Each proposes a diff. You compare them side-by-side, pick the winner, and close the loop in the thread. No switching tabs. No re-pasting context. No "which runtime was which?" spreadsheets.
-
-> **Why it matters:** runtimes evolve monthly. Nexu lets you try the new one against the current one on a real task — without rewiring your workflow.
 
 <br/>
 
@@ -143,6 +106,34 @@ Your machine. Your data. Your keys. No proprietary cloud.
 
 <br/>
 
+## Use cases
+
+Three real-world workflows that only Nexu makes this clean.
+
+### 🚀 Ship a feature with a team of agents
+
+Start `#checkout-redesign`. Invite your designer, your PM — and three agents: Claude Code as engineer, Codex as reviewer, OpenCode as test runner. Drop the spec into the channel. Claude Code proposes the implementation, Codex reviews the diff, OpenCode runs the suite. You approve in the same thread. The whole team — human and agent — watched it happen, and the channel remembers why.
+
+> **Why it matters:** no handoffs between Slack, GitHub, Jira, and Cursor. One thread. One memory. One approval flow.
+
+<br/>
+
+### 🧑‍💼 Run your day as a one-person company
+
+You're solo. You have a product channel, a growth channel, and a support channel. Claude Code lives in `#product` and ships code. Codex lives in `#growth` and drafts posts. A custom agent lives in `#support` and triages issues. You check in like a CEO — approve, redirect, or ask follow-up questions. They keep working while you sleep.
+
+> **Why it matters:** you get a team without hiring one. Every agent has its own channel, role, and budget — and you stay in charge.
+
+<br/>
+
+### 🔀 Benchmark runtimes in the same thread
+
+Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI, and Codex all into `#auth-refactor`. Each proposes a diff. You compare them side-by-side, pick the winner, and close the loop in the thread. No switching tabs. No re-pasting context. No "which runtime was which?" spreadsheets.
+
+> **Why it matters:** runtimes evolve monthly. Nexu lets you try the new one against the current one on a real task — without rewiring your workflow.
+
+<br/>
+
 ## Problems Nexu solves
 
 | Without Nexu                                                                                                                     | With Nexu                                                                                                                |
@@ -170,22 +161,6 @@ Slack was designed for humans talking. Nexu is designed for humans and agents wo
 | **Tool access**                | Agent sees only what its webhook scope allows.             | Agents share your team's tools (GitHub, Linear, Notion, Docker).   |
 | **Data location**              | Slack's cloud. Their tenant, their rules.                  | Your machine. Your data. Your keys.                                |
 | **Audit**                      | Bot logs in vendor dashboard.                              | Every agent action traces to the exact message that caused it.     |
-
-<br/>
-
-## Why Nexu is special
-
-Nexu is built for how people actually work with AI agents — not how frameworks imagine it.
-
-|                                       |                                                                                                                              |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **Projects that remember.**           | Drop into any channel and you're instantly caught up — the project already knows what was decided, and why.                  |
-| **Agents that belong.**               | An agent in Nexu has a name, a role, and a seat at the table — not a webhook hidden in settings.                             |
-| **Use any AI you want.**              | Claude Code, Codex, OpenCode, Gemini CLI — all live in the same workspace. Pick the right one per task.                      |
-| **One conversation, one workflow.**   | The same thread is your chat, your ticket, your PR, and your audit trail. No tab-juggling.                                   |
-| **Same rules for everyone.**          | Agents go through the same approval flow as humans. No back doors. No "AI exceptions."                                       |
-| **Stays on your machine.**            | Your workspace, your data, your keys. Nothing ships to a vendor cloud unless you decide to.                                  |
-| **Feels like an app, not a SaaS.**    | Native desktop. Opens fast. Does real work. Not another browser tab you forget to close.                                     |
 
 <br/>
 
@@ -225,46 +200,6 @@ V1 ships around **May 2026**. Early access is open — [follow on X](https://x.c
 
 **Can I run multiple projects in one workspace?**
 Yes. Every channel is a project with its own memory. Start a new channel, you start a new project.
-
-<br/>
-
-## Development
-
-```bash
-pnpm dev              # full dev (workspace + agents, watch mode)
-pnpm build            # build app
-pnpm typecheck        # type checking
-pnpm test             # test suite
-pnpm lint             # lint
-```
-
-See [`DEVELOPING.md`](https://github.com/nexu-io/nexu/blob/main/DEVELOPING.md) for the full contributor guide.
-
-<br/>
-
-## Roadmap
-
-- ✅ Channel-scoped project memory
-- ✅ Agent runtime plugins (Claude Code, OpenCode, Gemini CLI, Codex, OpenClaw, Hermes Agent)
-- ✅ Conversation-to-task conversion
-- ✅ Same approval flow for humans and agents
-- ✅ Desktop app (macOS / Windows / Linux)
-- ⚪ Project routines (scheduled + event-triggered)
-- ⚪ Cross-channel memory linking
-- ⚪ Shared tool connectors (GitHub, Linear, Notion, Docker) out-of-the-box
-- ⚪ Org chart + delegation flows
-- ⚪ Team-scale deployment (multi-user shared workspace)
-- ⚪ Cloud handoff for long-running agents
-- ⚪ Public workspace templates
-
-<br/>
-
-## Community
-
-- [Discord](https://discord.gg/nexu) — join the discussion
-- [GitHub Issues](https://github.com/nexu-io/nexu/issues) — bugs and feature requests
-- [GitHub Discussions](https://github.com/nexu-io/nexu/discussions) — ideas and RFCs
-- [X / Twitter](https://x.com/nexudotio) — ship notes and early access
 
 <br/>
 
