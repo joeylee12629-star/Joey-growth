@@ -70,6 +70,34 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 
 <br/>
 
+## Use cases
+
+Three real-world workflows that only Nexu makes this clean.
+
+### 🚀 Ship a feature with a team of agents
+
+Start `#checkout-redesign`. Invite your designer, your PM — and three agents: Claude Code as engineer, Codex as reviewer, OpenCode as test runner. Drop the spec into the channel. Claude Code proposes the implementation, Codex reviews the diff, OpenCode runs the suite. You approve in the same thread. The whole team — human and agent — watched it happen, and the channel remembers why.
+
+> **Why it matters:** no handoffs between Slack, GitHub, Jira, and Cursor. One thread. One memory. One approval flow.
+
+<br/>
+
+### 🧑‍💼 Run your day as a one-person company
+
+You're solo. You have a product channel, a growth channel, and a support channel. Claude Code lives in `#product` and ships code. Codex lives in `#growth` and drafts posts. A custom agent lives in `#support` and triages issues. You check in like a CEO — approve, redirect, or ask follow-up questions. They keep working while you sleep.
+
+> **Why it matters:** you get a team without hiring one. Every agent has its own channel, role, and budget — and you stay in charge.
+
+<br/>
+
+### 🔀 Benchmark runtimes in the same thread
+
+Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI, and Codex all into `#auth-refactor`. Each proposes a diff. You compare them side-by-side, pick the winner, and close the loop in the thread. No switching tabs. No re-pasting context. No "which runtime was which?" spreadsheets.
+
+> **Why it matters:** runtimes evolve monthly. Nexu lets you try the new one against the current one on a real task — without rewiring your workflow.
+
+<br/>
+
 ## Features
 
 <table>
