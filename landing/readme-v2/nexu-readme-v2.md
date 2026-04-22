@@ -150,20 +150,18 @@ Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI
 
 <br/>
 
-## Nexu vs. Slack
+## Why Nexu is different
 
-Slack was designed for humans talking. Nexu is designed for humans and agents working.
+Every AI tool in the market today falls into one of three buckets — each with a ceiling. Nexu was built to break through all three.
 
-|                                | Slack (with AI bots)                                       | Nexu                                                             |
-| ------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------------------- |
-| **Agent status**               | Second-class bot. Waits to be @-mentioned.                 | First-class teammate. Has a role, a seat, a voice.                |
-| **Project memory**             | Scattered across messages. Agent starts fresh every time.  | Channel = project. Full memory inherited on join.                 |
-| **Task management**            | Copy-paste to Jira. Hope it syncs.                         | The thread is the ticket. Status lives in the conversation.       |
-| **Approval flow**              | Separate tool (GitHub / ClickUp / another bot).            | Agents and humans go through the same in-channel approval.        |
-| **Runtime choice**             | One bot per integration. No swap, no benchmark.            | 8+ runtimes (Claude Code, Codex, Gemini CLI, OpenCode, etc.) side-by-side. |
-| **Tool access**                | Agent sees only what its webhook scope allows.             | Agents share your team's tools (GitHub, Linear, Notion, Docker).   |
-| **Data location**              | Slack's cloud. Their tenant, their rules.                  | Your machine. Your data. Your keys.                                |
-| **Audit**                      | Bot logs in vendor dashboard.                              | Every agent action traces to the exact message that caused it.     |
+| Dimension              | ChatGPT / Standalone tools           | Slack / Feishu + bots                         | Dify / Coze-style platforms                  | **Nexu**                                                   |
+| ---------------------- | ------------------------------------ | --------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------- |
+| **Agent identity**     | ❌ None                              | ⚠️ Weak (bot badge, no presence)              | ⚠️ Siloed per app                            | ✅ First-class teammate — avatar, status, @-mention         |
+| **Channel context**    | ❌ None                              | ⚠️ Drowned in general-purpose chat            | ❌ Trapped inside one app                    | ✅ Native channels, shared context across humans and agents |
+| **Persistent memory**  | ❌ None                              | ❌ None                                       | ⚠️ Needs extra setup                         | ✅ Bound to the channel, accumulates automatically          |
+| **Automation / schedule** | ❌ None                           | ⚠️ Needs external integration                 | ✅ Supported                                 | ✅ Native routines (scheduled + event-triggered)            |
+| **Collaboration**      | ❌ One-on-one chat                   | ⚠️ Humans in chat, agents in separate tabs    | ❌ App-switching                             | ✅ Humans and agents work in the same channel               |
+| **Local capabilities** | ❌ Not supported                     | ❌ Not supported                              | ⚠️ Cloud-first                               | ✅ Local runtimes (CLI, files, devices) out of the box      |
 
 <br/>
 
