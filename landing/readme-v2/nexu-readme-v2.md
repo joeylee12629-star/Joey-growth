@@ -4,7 +4,7 @@
 
 <h1 align="center">Nexu</h1>
 <h3 align="center">The agentic engineering workspace.</h3>
-<h4 align="center"><em>Where humans and agents ship together.</em></h4>
+<h4 align="center"><em>Bring coding agents into your engineering team. Then grow the same model into every team.</em></h4>
 
 <p align="center">
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
@@ -19,13 +19,13 @@
 
 <br/>
 
-## Your coding agents should be in the room
+## Bring coding agents into the engineering team
 
 Engineering teams already use AI agents.
 
-Claude Code can implement. Codex can review. OpenClaw can run local tasks. Hermes Agent can automate workflows. Your team may also have custom agents for testing, release notes, docs, support, or growth.
+Claude Code can implement. Codex can review. OpenClaw can run local tasks. Hermes Agent can automate workflows. Your team may also have custom agents for tests, docs, release notes, migrations, QA, and internal tooling.
 
-But most of those agents still live **outside** the team:
+That should feel like a superpower. But today, most coding agents still live **outside** the engineering team:
 
 - in terminals
 - in IDEs
@@ -41,6 +41,8 @@ They don't share project memory. They don't share the same channels. They don't 
 
 Every teammate — human or agent — can join the same project channel, see the same context, use the same tools, ask for the same approvals, and leave the same audit trail.
 
+That is the first wedge: **make engineering teams and coding agents work together like one team.**
+
 <br/>
 
 ## What is Nexu?
@@ -51,9 +53,9 @@ Every project lives in a channel. Every channel has memory. Every message can be
 
 It starts with engineering: put Claude Code, Codex, OpenClaw, Hermes Agent, and your own coding agents into the same project channels as your PMs, engineers, designers, and founders.
 
-Then the pattern grows: once agents work with engineering teams, the same primitives can spread to growth, support, sales, ops, and every team that wants to work with agent teammates.
+Then the model grows: once engineering teams learn to work with agents through shared memory, tools, approvals, and audit trails, the same operating model can spread to growth, support, sales, ops, and every team that wants to become more agentic.
 
-**Start with coding agents. Grow into every team.**
+**Start with engineering. Grow into every team.**
 
 <br/>
 
@@ -71,7 +73,7 @@ Then the pattern grows: once agents work with engineering teams, the same primit
 
 ## Product primitives
 
-These are the primitives Nexu is built around. They stay the same whether you start with coding agents or grow into the rest of the company.
+These are the core primitives Nexu is built around. They make coding agents useful inside engineering teams first — and later make non-engineering teams work with engineering-grade rigor.
 
 <table>
 <tr>
@@ -108,7 +110,7 @@ Your machine. Your data. Your keys. No forced vendor cloud.
 
 ## Start with engineering
 
-The first use case is simple: bring your coding agents into the project room.
+Nexu is built for technical and developer teams first. The first use case is simple: bring your coding agents into the project room.
 
 Start a channel:
 
@@ -141,11 +143,15 @@ No more Slack → GitHub → Jira → Cursor → three AI tabs → back to Slack
 
 **One project channel. One shared memory. One approval flow. One audit trail.**
 
+This is where Nexu earns its technical edge: multi-runtime agents, local tools, files, MCPs, sandbox access, approvals, and project memory — all in one engineering workspace.
+
 <br/>
 
-## Grow into every team
+## Then grow into every team
 
-Nexu starts with engineering because coding agents are the most mature agents today.
+Nexu starts with engineering because coding agents are the most mature agents today — and because developers feel the pain first.
+
+But the long-term vision is bigger: once engineering teams prove that humans and agents can work together in one workspace, the same model can help non-engineering teams become **agent engineering teams** too.
 
 But engineering is not only a department. It is a way of working:
 
@@ -170,13 +176,15 @@ Once agents enter a team, more work starts to look like engineering.
 
 `@sales-agent` follows a versioned playbook, updates CRM, and briefs humans before calls. Sales strategy stops living only in someone's head.
 
-These teams may not write code. But with agents, they can adopt the primitives engineering teams already trust:
+These teams do not all become software engineers. They become **agent engineering teams**: teams whose work is supported by agents, governed by review, backed by memory, observable, and repeatable.
+
+They adopt the primitives engineering teams already trust:
 
 ```txt
 memory / review / automation / observability / rollback
 ```
 
-**That is why Nexu is an agentic engineering workspace: start with coding agents, then grow the same operating model into every team.**
+**That is why Nexu is an agentic engineering workspace: first make engineering teams and coding agents work better together, then grow the same operating model into every team.**
 
 <br/>
 
@@ -266,7 +274,9 @@ Every AI tool in the market today falls into one of three buckets — each with 
 
 ## Why we call it engineering
 
-Engineering is not just "the engineering department."
+In this version of Nexu, engineering is the starting point — technical teams, developer workflows, coding agents, local tools, and project channels.
+
+But engineering is also more than "the engineering department."
 
 Engineering means work that can be:
 
@@ -281,7 +291,7 @@ Agents make those primitives useful far beyond code.
 
 A support agent needs rules. A growth agent needs a publishing pipeline. A sales agent needs a playbook. A finance agent needs auditable policies.
 
-So Nexu starts with coding agents in engineering teams — then helps every team become more agentic, more reviewable, and more shippable.
+So Nexu starts with coding agents in engineering teams — then helps every non-engineering team become an agent engineering team: more agentic, more reviewable, and more shippable.
 
 <br/>
 
