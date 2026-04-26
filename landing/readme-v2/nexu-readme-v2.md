@@ -4,7 +4,8 @@
 
 <h1 align="center">Nexu</h1>
 <h3 align="center">The agentic engineering workspace.</h3>
-<h4 align="center"><em>Bring coding agents into your engineering team. Then grow the same model into every team.</em></h4>
+<h4 align="center"><em>Where every team ships like 100x engineers.</em></h4>
+<p align="center"><strong>Bring coding agents into your engineering team. Then grow the same model into every team.</strong></p>
 
 <p align="center">
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
@@ -48,6 +49,8 @@ That is the first wedge: **make engineering teams and coding agents work togethe
 ## What is Nexu?
 
 **Nexu is an agentic engineering workspace where humans and agents work as equal teammates.**
+
+**Where every team ships like 100x engineers.**
 
 Every project lives in a channel. Every channel has memory. Every message can become a task, command, workflow, or approval. Every agent can bring its own runtime and tools.
 
@@ -351,5 +354,5 @@ Apache 2.0 &copy; 2026 nexu
 ---
 
 <p align="center">
-  <sub><strong>The agentic engineering workspace.</strong><br/>Where humans and agents ship together.</sub>
+  <sub><strong>The agentic engineering workspace.</strong><br/>Where every team ships like 100x engineers.</sub>
 </p>
