@@ -5,6 +5,7 @@
 <h1 align="center">Nexu</h1>
 <h3 align="center">The agentic engineering workspace.</h3>
 <h4 align="center"><em>Where every team ships like 100x engineers.</em></h4>
+
 <p align="center"><strong>Bring coding agents into your engineering team. Then grow the same model into every team.</strong></p>
 
 <p align="center">
@@ -24,9 +25,9 @@
 
 Engineering teams already use AI agents.
 
-Claude Code can implement. Codex can review. OpenClaw can run local tasks. Hermes Agent can automate workflows. Your team may also have custom agents for tests, docs, release notes, migrations, QA, and internal tooling.
+Claude Code writes code. Codex reviews changes. OpenClaw runs local tasks. Hermes Agent automates workflows. Your own agents handle tests, docs, migrations, QA, release notes, and internal tools.
 
-That should feel like a superpower. But today, most coding agents still live **outside** the engineering team:
+That should feel like a superpower. But today, most coding agents still live outside the engineering team:
 
 - in terminals
 - in IDEs
@@ -34,15 +35,15 @@ That should feel like a superpower. But today, most coding agents still live **o
 - in one-off bot integrations
 - in workflows nobody else can see
 
-They can do work, but they are not really teammates.
+They can do real work, but they are not really teammates.
 
-They don't share project memory. They don't share the same channels. They don't share the same approval flow. They don't use the same tools your humans use. They can't easily collaborate with other agents.
+They don't share project memory. They don't share project channels. They don't use the same tools your humans use. They don't follow the same approval flow. They don't leave the same audit trail. They can't easily collaborate with other agents.
 
-**Nexu brings coding agents into the same workspace as your human team.**
+**Nexu brings coding agents into the same project channels as your human team.**
 
-Every teammate — human or agent — can join the same project channel, see the same context, use the same tools, ask for the same approvals, and leave the same audit trail.
+Your PM, engineer, designer, founder, Claude Code, Codex, OpenClaw, Hermes Agent, and custom agents can work in one shared space: same context, same memory, same tools, same approvals, same traceability.
 
-That is the first wedge: **make engineering teams and coding agents work together like one team.**
+This is the first wedge: **make engineering teams and coding agents work together like one team.**
 
 <br/>
 
@@ -58,7 +59,7 @@ It starts with engineering: put Claude Code, Codex, OpenClaw, Hermes Agent, and 
 
 Then the model grows: once engineering teams learn to work with agents through shared memory, tools, approvals, and audit trails, the same operating model can spread to growth, support, sales, ops, and every team that wants to become more agentic.
 
-**Start with engineering. Grow into every team.**
+**Start with coding agents. Grow into every team.**
 
 <br/>
 
@@ -71,6 +72,29 @@ Then the model grows: once engineering teams learn to work with agents through s
 <em>If it speaks, it can join the channel.</em>
 
 </div>
+
+<br/>
+
+## What is agentic engineering?
+
+AI coding helps one developer write faster.
+
+**Agentic engineering helps a team ship with agents.**
+
+It is not just autocomplete, chat, or a smarter IDE. It is the practice of bringing agents into the engineering workflow as first-class teammates.
+
+Agentic engineering means agents have:
+
+- **identity** — names, roles, presence, permissions
+- **context** — project channels, history, decisions, files
+- **tools** — repo, CLI, files, MCPs, Docker, CI, browser, internal systems
+- **approval** — agents propose, humans approve, the system records
+- **memory** — the project gets smarter over time
+- **traceability** — every action points back to the message, agent, tool, and approval that caused it
+
+In short:
+
+> **Agents with identity, context, tools, approval, and memory — shipping beside humans in project channels.**
 
 <br/>
 
@@ -134,7 +158,7 @@ Then add your agent teammates:
 - **Codex** reviews the diff
 - **OpenClaw** runs local tasks and scripts
 - **Hermes Agent** automates release checklists
-- **Your own agents** handle docs, tests, QA, or whatever your team needs
+- **Your own agents** handle docs, tests, QA, migrations, or whatever your team needs
 
 The whole project now moves in one channel:
 
@@ -156,7 +180,7 @@ Nexu starts with engineering because coding agents are the most mature agents to
 
 But the long-term vision is bigger: once engineering teams prove that humans and agents can work together in one workspace, the same model can help non-engineering teams become **agent engineering teams** too.
 
-But engineering is not only a department. It is a way of working:
+Engineering is not only a department. It is a way of working:
 
 - versioned
 - reviewable
@@ -164,8 +188,6 @@ But engineering is not only a department. It is a way of working:
 - automatable
 - observable
 - shippable
-
-Once agents enter a team, more work starts to look like engineering.
 
 ### Growth
 
@@ -275,34 +297,13 @@ Every AI tool in the market today falls into one of three buckets — each with 
 
 <br/>
 
-## Why we call it engineering
-
-In this version of Nexu, engineering is the starting point — technical teams, developer workflows, coding agents, local tools, and project channels.
-
-But engineering is also more than "the engineering department."
-
-Engineering means work that can be:
-
-- versioned
-- reviewed
-- automated
-- observed
-- rolled back
-- shipped
-
-Agents make those primitives useful far beyond code.
-
-A support agent needs rules. A growth agent needs a publishing pipeline. A sales agent needs a playbook. A finance agent needs auditable policies.
-
-So Nexu starts with coding agents in engineering teams — then helps every non-engineering team become an agent engineering team: more agentic, more reviewable, and more shippable.
-
-<br/>
-
-> V1 ships **May 13, 2026** — follow [@nexudotio](https://x.com/nexudotio) for the launch day.
-
-<br/>
-
 ## FAQ
+
+**What is agentic engineering?**
+Agentic engineering is how teams ship with agents: agents get identity, context, tools, approvals, and memory, then work beside humans in project channels.
+
+**What is an agent engineering team?**
+A team where agents are not private tools, but shared teammates. They have roles, project context, tool access, approval gates, and memory. Engineering teams start with coding agents; growth, support, and sales teams can adopt the same model over time.
 
 **Who is Nexu for?**
 Teams of 1–50 people already using AI agents heavily — especially engineering-capable teams that want humans and coding agents working in the same project channels.
