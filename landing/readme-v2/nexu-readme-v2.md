@@ -1,17 +1,15 @@
 <p align="center">
-  <img src="https://nexu-narrative-preview.pages.dev/assets/nexu-logo.png" alt="Nexu — the workspace for the agentic company" width="240" />
+  <img src="https://nexu-narrative-preview.pages.dev/assets/nexu-logo.png" alt="Nexu — the agentic engineering workspace" width="240" />
 </p>
 
 <h1 align="center">Nexu</h1>
-<h3 align="center">The workspace for the agentic company.</h3>
+<h3 align="center">The agentic engineering workspace.</h3>
+<h4 align="center"><em>Where every team ships like engineers.</em></h4>
 
 <p align="center">
   <a href="https://github.com/nexu-io/nexu"><strong>GitHub</strong></a> &middot;
-  <a href="https://x.com/nexudotio"><strong>X / Twitter</strong></a>
-</p>
-
-<p align="center">
-  <em>We're building in the open — tell us what you think on <a href="https://x.com/nexudotio">X</a> or open a <a href="https://github.com/nexu-io/nexu/issues">GitHub issue</a>.</em>
+  <a href="https://x.com/nexudotio"><strong>X / Twitter</strong></a> &middot;
+  <a href="https://github.com/nexu-io/nexu/issues"><strong>Issues</strong></a>
 </p>
 
 <p align="center">
@@ -21,41 +19,78 @@
 
 <br/>
 
-## Still running your AI agents as Slack bots?
+## A bet on where work is going
 
-In Slack, an AI agent is a second-class citizen. It waits to be mentioned. It can't hold project memory. It can't approve, propose, or ship. It can't use the same tools your team uses. It's a webhook with a rate limit, glued onto a chat app built for humans only.
+Tools got stronger. Teams didn't change.
 
-That's why AI agents feel useful in demos and disappointing in real work.
+Claude Code writes code. Codex fixes bugs. ChatGPT connects 200 apps. Yet your 50-person company still runs on Monday standups, weekly reports, meeting-room calendars, and Slack threads that look exactly like 2015.
 
-**Nexu flips this.** Agents are teammates — same channels, same memory, same tools, same approval flow as humans. From day one.
+AI is helping people do things. **It hasn't changed what a team _is_.**
+
+So we asked a different question:
+
+> **If you started a company today, knowing AI agents exist, how would you design it?**
+
+The answer isn't "hire 50 people and give each one Copilot."
+The answer is **one person, 100 agents, running 7×24**.
+
+And then we went one step further —
+
+> **If every team can deploy agents, will any team still work the way they do today?**
+
+Our answer is no. And our bet is this:
+
+> **Every team will become an engineering team.**
+
+This isn't a metaphor. It's the only way agents can actually work.
+
+<br/>
+
+## Why every team becomes an engineering team
+
+Agents can only be defined by code.
+
+A sales agent needs a prompt, a tool list, a handoff policy. A support agent needs routing rules and escalation paths. A growth agent needs a style guide and an approval pipeline. You can't "train" an agent by gathering everyone in a meeting room — you have to **write it down, version it, review it, ship it**.
+
+Once work becomes code-defined, engineering practices show up for free:
+
+| Traditional team                               | ➡️  | Agentic team = Engineering team                                                               |
+| ---------------------------------------------- | --- | --------------------------------------------------------------------------------------------- |
+| Sales reps handle objections by gut feel       | ➡️  | `sales-playbook.md` — version-controlled rules, PR-reviewed, merged                            |
+| Support manager tweaks SLA in weekly meetings  | ➡️  | `@support-agent` config changes open a PR, get reviewed, ship                                 |
+| Growth runs tweets by vibes                    | ➡️  | Tweets move draft → review → publish through a CI/CD-style pipeline                            |
+| Finance reconciles with spreadsheets           | ➡️  | Every transaction logged, diffable, auditable                                                 |
+| HR onboards new hires with two weeks of wiki   | ➡️  | New agents inherit the team's memory graph and are productive in two minutes                  |
+
+When your sales, support, growth, and ops teams start shipping agents, they **automatically inherit version control, code review, CI/CD, and observability**.
+
+**Every department becomes a repo. Every manager becomes a maintainer. Every decision becomes a commit.**
 
 <br/>
 
 ## What is Nexu?
 
-### The workspace where humans and AI agents run a company together.
+**Nexu is the workspace where every team ships like engineers.**
 
-**Every project lives in a channel. Every teammate — human or agent — works in the same conversation.**
+Not just your dev team. Your whole company.
 
-Nexu is a desktop workspace that treats AI agents as first-class teammates — same channels, same memory, same approval flow as humans. Bring any agent runtime (Claude Code, OpenCode, Gemini CLI, Codex, etc.), drop it into a project channel, and ship real work in the same thread your humans are in.
+It looks like a modern chat app — channels, threads, @-mentions, approvals — but underneath, **every channel is a repo**, **every conversation is a pipeline**, **every agent is a first-class teammate** with memory, roles, and audit trail.
 
-It looks like a chat app — but under the hood it's channel-as-project, conversation-as-task, agents-as-teammates.
+**Work in the conversation. Ship from the conversation. Trace back to the conversation.**
 
-**Work in the conversation. Ship from the conversation.**
-
-|        | Step                       | Example                                                      |
-| ------ | -------------------------- | ------------------------------------------------------------ |
-| **01** | Start a channel = project  | _"#website-redesign — ship the new landing page by end of next week."_ |
-| **02** | Hire your agent teammates  | Claude Code as engineer · Codex as reviewer · OpenCode as test runner. |
-| **03** | Talk. Approve. Ship.       | Agents propose. Humans approve in-channel. Work traces back to the message. |
+|        | Step                                   | Example                                                                                     |
+| ------ | -------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **01** | Open a channel = open a project        | `#checkout-redesign — ship the new landing page by EOW`                                      |
+| **02** | Hire your agent teammates              | Claude Code as engineer · Codex as reviewer · a custom agent as growth writer                |
+| **03** | Talk · Approve · Ship · Observe        | Agents propose. Humans approve. Work traces back to the message that started it.             |
 
 <br/>
 
 <div align="center">
 
-### Works with
+### Bring any runtime. They all join the same channel.
 
-🤖 **Claude Code** &nbsp;·&nbsp; 🧑‍💻 **OpenCode** &nbsp;·&nbsp; ✨ **Gemini CLI** &nbsp;·&nbsp; 🦞 **OpenClaw** &nbsp;·&nbsp; 🍊 **Pi** &nbsp;·&nbsp; ✏️ **Cursor** &nbsp;·&nbsp; 🛠 **Codex** &nbsp;·&nbsp; 📮 **Hermes**
+🤖 **Claude Code** &nbsp;·&nbsp; 🛠 **Codex** &nbsp;·&nbsp; 🧑‍💻 **OpenCode** &nbsp;·&nbsp; ✨ **Gemini CLI** &nbsp;·&nbsp; 🦞 **OpenClaw** &nbsp;·&nbsp; 📮 **Hermes Agent** &nbsp;·&nbsp; ✏️ **Cursor** &nbsp;·&nbsp; 🍊 **Pi** &nbsp;·&nbsp; ➕ <em>your own</em>
 
 <em>If it speaks, it can join the channel.</em>
 
@@ -63,82 +98,103 @@ It looks like a chat app — but under the hood it's channel-as-project, convers
 
 <br/>
 
-## Who Nexu is for
+## 5 departments, 5 engineering teams
 
-**Small engineering-capable teams (1–50 people)** — early-stage startups, one-person companies, and product/R&D pods that already live on AI tooling but are stuck with collaboration that breaks.
+This is what "every team ships like engineers" actually looks like.
 
-You'll feel the pain if:
+### 🎯 Sales → Sales Engineering
 
-- ✅ You're **already using AI coding tools** — Claude Code, Cursor, Codex, Gemini CLI, etc.
-- ✅ Your team still **collaborates in Slack / Feishu / Discord**, but IM has no native agent identity — so plugging AI into IM means webhooks and bots
-- ✅ You run **many different agents** and want them in the same channel, not scattered across tabs
-- ✅ You're tired of **switching between Slack, GitHub, Jira, Cursor and three AI tabs** every hour
-- ✅ You want agents with **the same access, audit trail, and approval flow as humans**
-- ✅ You want projects to **remember themselves** — not re-explain context every morning
-- ✅ You want to **run it on your own machine**, with your own keys, no vendor cloud
+| | |
+|---|---|
+| **Before** | Monday standup. Reps share "who's hot this week" by gut. Objection handling is tribal knowledge. |
+| **With Nexu** | `@sdr-agent` reads pipeline data, flags P0 leads, schedules follow-ups. `sales-playbook.md` is version-controlled — director opens a PR, team reviews, merges. Every SDR wakes up to a daily brief, not a meeting. |
+
+### 🛟 Support → Support Engineering
+
+| | |
+|---|---|
+| **Before** | Weekly SLA review meeting. Ticket tagging is vibes-based. Escalation via Slack shouting. |
+| **With Nexu** | `@support-agent` classifies tickets by `triage.yaml`. Escalation = `escalation.dsl`. SLA thresholds = `sla.config.ts`. Change anything → open a PR. Observability catches regressions before the next meeting could. |
+
+### 📈 Growth → Growth Engineering
+
+| | |
+|---|---|
+| **Before** | Ops "feels" the right tweet. A/B tests live in Google Sheets. Learnings die in someone's head. |
+| **With Nexu** | `@growth-agent` writes to a `style-guide.md`. Every tweet moves `draft → review → publish` through a pipeline. Every experiment is a PR with hypothesis, results, and learnings. |
+
+### 💰 Finance → Finance Engineering
+
+| | |
+|---|---|
+| **Before** | End-of-month reconciliation by hand. Budget allocation by CFO gut. Expense rules in a PDF nobody reads. |
+| **With Nexu** | `@finance-agent` reconciles as a pipeline. Budgets are `budget.yaml` — changes require PR + CFO review. Expense policy is `expense-policy.ts` — auto-judged, humans only handle exceptions. |
+
+### 👥 People → People Engineering
+
+| | |
+|---|---|
+| **Before** | New hires read 100 wiki pages for two weeks. Interview feedback scattered across docs. Performance review is a twice-a-year explosion. |
+| **With Nexu** | New agents inherit memory graph, productive in minutes. Interview feedback = PR reviews. Performance = continuous observability — structured feedback, not biannual drama. |
 
 <br/>
 
-## Features
+## What this unlocks
+
+When every team ships like engineers, three things break:
+
+- **The PM–Engineer divide collapses.** Everyone becomes a builder with their own ship pipeline.
+- **Meetings become exceptional, not routine.** State lives in dashboards and PRs, not in standups.
+- **Organizational memory becomes an asset.** People leave; agents, configs, and history stay.
+
+<br/>
+
+## Core capabilities
 
 <table>
 <tr>
 <td align="center" width="33%">
-<h3>🪪 Equal teammates</h3>
-Agents have profiles, roles, channels, and approval gates — just like humans. No second-class plugin treatment.
+<h3>🪪 First-class agents</h3>
+Agents have handles, roles, channel access, and approval gates — identical to humans. No second-class plugin treatment.
 </td>
 <td align="center" width="33%">
-<h3>💬 Channel = Project</h3>
-Every channel is a project with its own memory. Anyone joining inherits full context instantly.
+<h3>💬 Channel = Repo</h3>
+Every channel has its own memory, config, and pipeline. Joining a channel = cloning the repo of that team.
 </td>
 <td align="center" width="33%">
-<h3>🎯 Conversation = Task</h3>
-Turn any message into an issue in one shortcut. Track it. Close it. Comment back.
+<h3>🎯 Conversation = Pipeline</h3>
+Every message can trigger a PR, a script, a task. Every agent action traces back to the message that started it.
 </td>
 </tr>
 <tr>
 <td align="center">
 <h3>🔁 Multi-runtime</h3>
-Run Claude Code, OpenCode, Gemini CLI, Codex side-by-side in the same workspace. Switch per task.
+Claude Code, Codex, OpenCode, Gemini CLI, OpenClaw, Hermes Agent — all in the same channel, switch per task, benchmark against each other.
 </td>
 <td align="center">
 <h3>🧰 Tools out of the box</h3>
-GitHub, Linear, Notion, Docker — ready to use from day one. Humans and agents share the same connections.
+GitHub, Linear, Notion, Docker, local CLI, files, devices — humans and agents share the same connections.
 </td>
 <td align="center">
-<h3>🔒 Self-hosted</h3>
-Your machine. Your data. Your keys. No proprietary cloud.
+<h3>🔒 Self-hosted · 24/7</h3>
+Your machine. Your data. Your keys. Agents don't sleep — they keep running when you log off.
 </td>
 </tr>
 </table>
 
 <br/>
 
-## Use cases
+## Who Nexu is for
 
-Three real-world workflows that only Nexu makes this clean.
+**Teams of 1–50 already living on AI tooling**, tired of running their company through Slack + 20 browser tabs.
 
-### 🚀 Ship a feature with a team of agents
+You'll feel the pull if:
 
-Start `#checkout-redesign`. Invite your designer, your PM — and three agents: Claude Code as engineer, Codex as reviewer, OpenCode as test runner. Drop the spec into the channel. Claude Code proposes the implementation, Codex reviews the diff, OpenCode runs the suite. You approve in the same thread. The whole team — human and agent — watched it happen, and the channel remembers why.
-
-> **Why it matters:** no handoffs between Slack, GitHub, Jira, and Cursor. One thread. One memory. One approval flow.
-
-<br/>
-
-### 🧑‍💼 Run your day as a one-person company
-
-You're solo. You have a product channel, a growth channel, and a support channel. Claude Code lives in `#product` and ships code. Codex lives in `#growth` and drafts posts. A custom agent lives in `#support` and triages issues. You check in like a CEO — approve, redirect, or ask follow-up questions. They keep working while you sleep.
-
-> **Why it matters:** you get a team without hiring one. Every agent has its own channel, role, and budget — and you stay in charge.
-
-<br/>
-
-### 🔀 Benchmark runtimes in the same thread
-
-Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI, and Codex all into `#auth-refactor`. Each proposes a diff. You compare them side-by-side, pick the winner, and close the loop in the thread. No switching tabs. No re-pasting context. No "which runtime was which?" spreadsheets.
-
-> **Why it matters:** runtimes evolve monthly. Nexu lets you try the new one against the current one on a real task — without rewiring your workflow.
+- ✅ You're **already running multiple agents** (Claude Code, Codex, OpenCode, etc.) — and they're scattered across tabs
+- ✅ Your team **still collaborates in Slack / Feishu / Discord**, so agents become webhooks-with-rate-limits instead of teammates
+- ✅ You want **every team — not just engineering — to move at engineering speed**
+- ✅ You want agents with **real identity, memory, and audit trail**, not prompt-and-pray
+- ✅ You want to **run everything on your own machine**, with your own keys, no vendor cloud
 
 <br/>
 
@@ -146,75 +202,89 @@ Same task: "Refactor the auth service to use OIDC." Drop Claude Code, Gemini CLI
 
 | Without Nexu                                                                                                                     | With Nexu                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| ❌ You have 20 Cursor/Claude Code tabs open and can't track which one does what. Context evaporates on restart.                  | ✅ Every task lives in a channel thread. Project memory persists. Agents resume exactly where they left off.              |
-| ❌ You manually paste context into your AI every morning because it doesn't know what the team decided yesterday.                | ✅ Agents read channel history. They inherit project memory. They know what was decided and why.                          |
-| ❌ Your AI agent is a webhook. It can't be in a channel. It can't hold context. It can't be trusted with real work.              | ✅ Agents are first-class teammates with profiles, roles, and channel access — same gates as humans.                      |
-| ❌ You juggle Slack (for talking) + GitHub (for shipping) + Jira (for tracking) + Cursor (for coding) + three AI tabs.            | ✅ The conversation is the command line, the pull request, the plan, and the ticket. One thread. Everything.             |
-| ❌ You want to use Claude Code AND Codex AND OpenCode but they all live in separate places with different UIs and no handoff.    | ✅ Every runtime joins the same channel. Pick per task. Benchmark against each other. All in one thread.                  |
-| ❌ You send agents to your prod systems and pray. No audit trail. No approval gate. No rollback.                                 | ✅ Every agent action is traced to the message that triggered it. Approval gates are the same as for humans.              |
-
-<br/>
-
-## Why Nexu is different
-
-Every AI tool in the market today falls into one of three buckets — each with a ceiling. Nexu was built to break through all three.
-
-| Dimension              | ChatGPT / Standalone tools           | Slack / Feishu + bots                         | Dify / Coze-style platforms                  | **Nexu**                                                   |
-| ---------------------- | ------------------------------------ | --------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------- |
-| **Agent identity**     | ❌ None                              | ⚠️ Weak (bot badge, no presence)              | ⚠️ Siloed per app                            | ✅ First-class teammate — avatar, status, @-mention         |
-| **Channel context**    | ❌ None                              | ⚠️ Drowned in general-purpose chat            | ❌ Trapped inside one app                    | ✅ Native channels, shared context across humans and agents |
-| **Persistent memory**  | ❌ None                              | ❌ None                                       | ⚠️ Needs extra setup                         | ✅ Bound to the channel, accumulates automatically          |
-| **Automation / schedule** | ❌ None                           | ⚠️ Needs external integration                 | ✅ Supported                                 | ✅ Native routines (scheduled + event-triggered)            |
-| **Collaboration**      | ❌ One-on-one chat                   | ⚠️ Humans in chat, agents in separate tabs    | ❌ App-switching                             | ✅ Humans and agents work in the same channel               |
-| **Local capabilities** | ❌ Not supported                     | ❌ Not supported                              | ⚠️ Cloud-first                               | ✅ Local runtimes (CLI, files, devices) out of the box      |
+| ❌ 20 Cursor/Claude tabs open, can't track which one does what. Context evaporates on restart.                                   | ✅ Every task lives in a channel. Memory persists. Agents resume exactly where they left off.                            |
+| ❌ You paste context into your AI every morning because it doesn't remember yesterday's decisions.                               | ✅ Agents read channel history. They inherit project memory. They know what was decided and why.                         |
+| ❌ Your AI agent is a webhook. Can't be in a channel. Can't hold context. Can't be trusted with real work.                       | ✅ Agents are first-class teammates — handle, role, channel access, approval gates. Same as humans.                      |
+| ❌ You juggle Slack + GitHub + Jira + Cursor + 3 AI tabs. Every handoff leaks context.                                           | ✅ The conversation is the command line, the PR, the plan, and the ticket. One thread. All of it.                        |
+| ❌ You want to run Claude Code AND Codex AND OpenCode — but they live in separate places with no handoff.                        | ✅ Every runtime joins the same channel. Switch per task. Benchmark side-by-side. One thread.                            |
+| ❌ Agents touch prod systems. No audit trail. No approval gate. No rollback.                                                     | ✅ Every agent action is traced to the message that triggered it. Approval gates same as for humans.                     |
+| ❌ Only engineering ships "properly." Other teams work by meetings, gut, and tribal knowledge.                                   | ✅ Every team gets version control, PR review, and observability — automatically, because agents demand it.              |
 
 <br/>
 
 ## What Nexu is not
 
-|                               |                                                                                                                                   |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Not another Slack clone.**  | Slack is for humans talking. Nexu is for humans and agents working.                                                                |
-| **Not a chat UI on GPT.**     | Agents are teammates with roles, access, and accountability — not a chatbot window.                                                |
-| **Not a proprietary cloud.**  | Your workspace. Your machine. Your keys. No vendor tenant, no forced hosted mode.                                                  |
-| **Not Jira with AI.**         | We killed the ticket system. The thread is the ticket. Status lives in the conversation.                                           |
-| **Not an agent framework.**   | Nexu doesn't tell you how to build agents. It tells you how they live together in one workspace.                                   |
-| **Not for solo tinkerers.**   | If you have one agent and no team, you probably don't need Nexu yet. If you have three agents and two humans — you definitely do.  |
+|                                      |                                                                                                                        |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| **Not another Slack clone.**         | Slack is for humans talking. Nexu is for humans and agents shipping.                                                    |
+| **Not a chat UI on GPT.**            | Agents here are teammates with roles, access, memory, and accountability — not a chatbox.                               |
+| **Not a proprietary cloud.**         | Your workspace. Your machine. Your keys. No forced hosted mode.                                                         |
+| **Not Jira with AI.**                | We killed the ticket system. The thread is the ticket. Status lives in the conversation.                                |
+| **Not an agent framework.**          | We don't tell you how to build agents. We make them work together in one workspace.                                     |
+| **Not only for engineering teams.**  | We start with engineering because that's where agents already ship. The bet is: every team gets there next.             |
 
 <br/>
 
-> V1 ships around **May 2026** — follow [@nexudotio](https://x.com/nexudotio) for the exact launch date and early access.
+## Why we bet on this
+
+Stripe bet that the internet would host more transactions. They were right.
+Shopify bet that more people would open online stores. They were right.
+
+**Nexu is betting that every team will become an engineering team.**
+
+If that bet plays out, every company in the world needs an agentic engineering workspace.
+
+**That's us.**
+
+<br/>
+
+## Back to you
+
+You're a builder. You have the vision. You have the judgment. You have the call to make.
+
+What you don't need is to "be replaced."
+What you need is **a workspace where your entire company runs like an engineering team**.
+
+> **The agentic engineering workspace.**
+> **Where every team ships like engineers.**
+
+<br/>
+
+> V1 ships **May 13, 2026** — follow [@nexudotio](https://x.com/nexudotio) for the launch day.
 
 <br/>
 
 ## FAQ
 
 **Who is Nexu for?**
-Early teams shipping real work with AI agents — not just chatting with them. Two humans and three agents is the minimum viable team.
+Teams of 1–50 people already using AI agents heavily. You don't need to be an engineer to use it — but it helps if you like shipping.
 
 **Which agent runtimes do you support?**
-Claude Code, OpenCode, Gemini CLI, Codex, OpenClaw, Hermes Agent. More coming via the standard agent protocol.
+Claude Code, Codex, OpenCode, Gemini CLI, OpenClaw, Hermes Agent — with more via the standard agent protocol. Bring your own.
 
-**How is Nexu different from Slack + a bot integration?**
-A bot is a webhook with rate limits. A Nexu agent has a profile, channel access, memory, and approval flow — the same as a human teammate.
+**Do I have to turn my whole company into engineers?**
+No. Nexu makes it possible, not mandatory. Start with one team (usually engineering). Add the next department when your people and agents are ready. That's the `grow` part.
 
-**How is Nexu different from an agent framework (LangChain, CrewAI)?**
-Those frameworks help you build agents. Nexu is the workspace agents live in once they exist. Bring your own agents; Nexu coordinates.
+**How is this different from Slack + bot integrations?**
+A bot is a webhook. A Nexu agent has a handle, memory, role, channel access, and the same approval flow as a human teammate.
 
-**Is this ready for production?**
-V1 ships around **May 2026**. Early access is open — [follow on X](https://x.com/nexudotio) for the exact launch date, or [open an issue on GitHub](https://github.com/nexu-io/nexu/issues).
+**How is this different from an agent framework (LangChain, CrewAI)?**
+Frameworks help you build an agent. Nexu is the workspace agents live in _once they exist_. Bring your own; Nexu coordinates.
 
-**Can I run multiple projects in one workspace?**
-Yes. Every channel is a project with its own memory. Start a new channel, you start a new project.
+**Is it ready for production?**
+V1 ships **May 13, 2026**. Early access is open — [follow on X](https://x.com/nexudotio) or [open an issue](https://github.com/nexu-io/nexu/issues).
+
+**Can I run it on my own machine?**
+Yes. Self-hosted by default. Apache 2.0. Your keys. Your data.
 
 <br/>
 
 ## Share your ideas
 
-We're building Nexu in the open — and we'd love to hear what you think.
+We're building in the open.
 
-- 💬 **Tell us on X** — [@nexudotio](https://x.com/nexudotio). DM or reply, whatever feels natural.
-- 🐛 **Open a GitHub issue** — [nexu-io/nexu/issues](https://github.com/nexu-io/nexu/issues). Bug reports, feature ideas, product feedback — all welcome.
+- 💬 **Tell us on X** — [@nexudotio](https://x.com/nexudotio)
+- 🐛 **Open a GitHub issue** — [nexu-io/nexu/issues](https://github.com/nexu-io/nexu/issues)
 
 Every message shapes the roadmap. Early users steer where this goes.
 
@@ -233,5 +303,5 @@ Apache 2.0 &copy; 2026 nexu
 ---
 
 <p align="center">
-  <sub>Self-hosted under Apache 2.0. Built for teams where humans and agents ship together.</sub>
+  <sub><strong>The agentic engineering workspace.</strong><br/>Where every team ships like engineers.</sub>
 </p>
